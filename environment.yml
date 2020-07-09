@@ -19,3 +19,5 @@ dependencies:
   - scipy
   - pillow
   - numpy
+  - pip:
+    - jupyter-repo2docker
