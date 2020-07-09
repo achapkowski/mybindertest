@@ -6,11 +6,12 @@ channels:
   - pytorch
 
 dependencies:
-  - python=3.6
+  - python=3.7
+  - somoclu
   - fiona
   - scikit-learn
   - numpy
-  - pandas >=0.23
+  - pandas >=1
   - pip
   - matplotlib
   - seaborn
@@ -18,8 +19,3 @@ dependencies:
   - scipy
   - pillow
   - numpy
-
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - matplotlib
